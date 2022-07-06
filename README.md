@@ -21,4 +21,4 @@ Here are some ideas to get you started:
 - Learn Git, GitHub 
 - Learn MarkDown 
   - file có đuôi .md là file MarkDown 
-  - Học cách viết markdown ở link [MarkDown] 
+  - Học cách viết markdown ở link [MarkDown]https://www.markdownguide.org/basic-syntax/
