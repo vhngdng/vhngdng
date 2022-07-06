@@ -14,3 +14,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+# vhngdng.io.git 
+# 06/07/2022
+- Learn Git, GitHub 
+- Learn MarkDown 
+  - file có đuôi .md là file MarkDown 
+  - Học cách viết markdown ở link [MarkDown] 
