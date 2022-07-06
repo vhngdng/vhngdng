@@ -1,0 +1,59 @@
+/* External CSS */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+#topic {
+  color: red;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 100px;
+  opacity: 0.5;
+}
+.textcolor {
+  border: 2px solid green;
+  font-size: 40px;
+  text-align: center;
+}
+
+.photo {
+  height: 60%;
+  width: 50%;
+  object-fit: contain;
+  padding: 20px;
+  border-width: 1px;
+  border-color: red;
+  border-style: dotted;
+  text-transform:   
+}
+
+.textFont {
+  font-size: 70px;
+  font-family: "Times New Roman", Times, serif;
+  float:
+}
+
+.text:hover {
+  color: red;
+  opacity: 1;
+  text-align: center;
+}
+
+#link {
+  display: block;
+  margin: 20px;
+  text-align: center;
+  font-size: 300px;
+}
+
+f {
+border-left-width: 0;
+white-space:no-wrap
+
+}
+
+hr{
+display:;
+}

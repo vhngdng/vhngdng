@@ -1,0 +1,84 @@
+<div id="container">
+<p="text1">Giới thiệu bản thân</p>
+<p="text2">1. Họ và tên: Nguyễn Việt Long</p>
+<p="text3">https://www.facebook.com/profile.php?id=100030387151935</p>
+<p="text4">2. Năm sinh: 15/10/2002</p>
+<p="text5">3. Quê quán: Minh Khai - Hoài Đức - Hà Nội</p>
+<p="text6">4. Hình ảnh bản thân: <b><i>Long Nguyễn</i></b> là người đứng giữa </br>
+  <img
+            src="https://scontent.xx.fbcdn.net/v/t1.15752-9/288836442_351789773697578_8210835895145578733_n.png?stp=dst-png_s206x206&_nc_cat=111&ccb=1-7&_nc_sid=aee45a&_nc_ohc=Eucxw257FugAX_N5ROY&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVJQAIbGcBlmBhmMzqEacTrExyfGdc1TKmC26lkejY4gpg&oe=62E49435"
+            alt="Long và 2 ông bạn thân"
+            title="Long Nguyễn và đồng bọn"
+          />
+</br>
+<p="text7">5. Sở trường: Thích chơi các loại <b>cờ như</b>
+          <u>cờ tướng cờ vua, cờ vây, cờ bạc</u> :)), chơi <u>boardgame</u> -
+          những game mang tính <em>Tư duy, trí tuệ</em>
+</p>
+<p="text8">6. Sở đoản: Đá cầu</p>
+<p="text9">7. Câu nói yêu thích: Dù cuộc sống có khó khăn thế nào đi chăng nữa, luôn có những việc bạn có thể làm và thành công. Mấu chốt là ở chỗ <b>đừng bao giờ bỏ cuộc</b> - Stephen Hawking </p>
+<p="text10">8. Bài hát yêu thích: <br/>
+  <div id="music">
+    <ul>
+            <li>
+              Beautiful now - Artist: ZEDD
+              <br />
+              <img               src="https://file.tinnhac.com/resize/600x-/music/2017/06/19/7fffb663120dd173020e-00af.jpg"
+                alt="Ca sĩ ZEDD"
+                title="Hình ảnh ca sĩ ZEDD"
+              />
+              <br />
+              <a
+                href="https://www.youtube.com/watch?v=n1a7o44WxNo"
+                target="_blank"
+                title="MV Beautiful now - ZEDD"
+                >Beautiful now - ZEDD</a
+              >
+            </li>
+            <li>
+              Why do I - Unknown Brain feat. Bri Tolani
+              <br />
+              <img
+                src="https://i.ytimg.com/vi/tcHJodG5hX8/maxresdefault.jpg"
+                alt="Unknown Brain"
+                title="Why do I - Unknown Brain"
+                width="640px"
+                height="360px"
+              />
+              <br />
+              <a
+                href="https://www.youtube.com/watch?v=tcHJodG5hX8"
+                target="_blank"
+                title="MV Why do I - Unknown Brain feat. Bri Tolani"
+                >Why do I - Unknown Brain feat. Bri Tolani</a
+              >
+            </li>
+          </ul>
+</div>
+    </p>
+    <p="text11">9.Nhân vật nổi tiếng truyền cảm hứng cho bạn:
+          <strong>Nick Vujicic</strong> - một đại diện có thể nói là
+          <b>vô tiền khoáng hậu</b> của những người khuyết tật trên thế giới -
+          chàng trai <strong>đặc biệt nhất hành tinh</strong>. Chính anh với
+          cuốn tự truyện "Cuộc sống không giới hạn" đã khiến mình cũng như toàn
+          nhân loại đương thời phải nể phục vì nghị lực phi thường của anh. Anh
+          đã khiến mình có một suy nghĩ rằng khi chúng ta sinh ra dù lành lặn
+          hay không nhưng đều có một <i>khả năng đặc biệt</i> nào đó mà ông trời
+          ban tặng và nhiệm vụ khó nhất của cuộc đời con người đó là tìm ra
+          <i>khả năng đặc biệt</i> đó và tìm cách để phát huy nó.
+          <br />
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/I/51yyzBY7SAL.jpg"
+            alt="Nick Vujicic"
+            title="Cuộc sống không giới hạn - Nick Vujicic"
+               /> </p>
+<p="text12">Link đọc cuốn tự truyện:
+          <a
+            href="http://file.hstatic.net/1000205346/file/ban_sao_cua_cuoc_song_khong_gioi_han.pdf"
+            target="_blank"
+            title="Cuộc sống không giới hạn - Nick Vujicic"
+            >Cuộc sống không giới hạn - Nick Vujicic</a
+          >
+</p>
+<p="text13">10. Các nội dung khác bạn muốn thêm vào phần giới thiệu này: Ngoài ra mình còn rất thích chơi LoL - League of Legends đặc biệt là vị tướng Yasuo nên muốn kết bạn với một người nào đó cũng chơi tựa game này để giao lưu ạ :)))
+</p>
