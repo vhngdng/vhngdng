@@ -227,7 +227,20 @@ ul{
   box-sizing: border-box;
   padding-left:10px;
   padding-bottom:5px;
- 
+  color: #757575;
+}
+
+.menulv3 a{
+  color: #757575;
+}
+
+.menulv3 a:visited {
+  color:#757575 !important
+}
+
+
+.menulv3 a:hover {
+  color:orange !important
 }
 
 
@@ -330,6 +343,50 @@ section:last-child{
 
 .payment img{
   width:10%;
+  visibility: visible !important;
+}
+
+a{
+  text-decoration: none !important;
+
+}
+
+.footer{
+  width:100%;
+  display:inline-flex;
+  box-sizing: border-box;
+}
+
+
+
+.footer-first{
+  max-width:65%;
+  display:flex;
+  justify-content: space-between;
+}
+
+
+
+.footer-first a{
+  width:30%;
+  box-sizing: border-box;
+}
+
+.footer2 {
+  width:100%;
+  display:inline-flex;
+}
+
+.column-text{
+width:32.5%;
+display:inline-flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+p{
+  width:fit-content;
   margin:0 3% 3% 0;
 }
 
