@@ -352,6 +352,8 @@ a{
 
 }
 
+/* footer-1st */
+
 .footer{
   width:100%;
   display:inline-flex;
@@ -373,6 +375,9 @@ a{
   box-sizing: border-box;
 }
 
+/* footer 2 */
+
+
 .footer2 {
   width:100%;
   display:inline-flex;
@@ -385,6 +390,16 @@ flex-direction: row;
 flex-wrap: wrap;
 
 }
+
+
+.column-text a, .column-text a:hover{
+  color: #0f136d;
+}
+
+.column-text a:hover{
+  text-decoration: underline #013dbf solid !important ;
+}
+
 
 p{
   width:fit-content;
