@@ -476,7 +476,7 @@ section:nth-last-of-type(2){
   width:100%;
   color: #888;
   margin-bottom:50px;
-  padding:5% 0 40px 0;
+  padding:5% 0 0 0;
 }
 
 section:nth-last-of-type(2) div:nth-child(2),section:nth-last-of-type(2) div:nth-child(3){
@@ -501,3 +501,31 @@ padding:40px 20px 20px 10px;
 
 }
 
+section:last-child img{
+  width:34px; height:34px;
+  border: solid 0.1px blue;
+  border-radius: 50%;
+}
+
+section:last-child{
+  background-color: white !important;
+}
+
+.last-footer{
+  display:flex;
+  width:65%;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: content-box;
+  margin: 30px 17.5% 0 17.5%;
+  padding:0;
+  height: 15vmin;
+}
+
+h2{
+  color: #2a2a2a;
+  font-size: 16px;
+  font-weight: normal;
+  margin-block-end: 0.5em;
+  margin-block-start: 0;
+}
