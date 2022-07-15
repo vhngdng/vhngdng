@@ -1,0 +1,159 @@
+.container {
+  margin:200px;
+  position:relative;
+  
+  
+}
+
+.position{
+
+  width:1000px;
+  height:200px;
+  box-sizing: border-box;
+  font-size: 60px;
+ 
+  border: 1px solid #f5f5f5;
+  box-shadow: 2px 2px 1px #f5f5f5;
+  position: absolute;
+  left:0;
+  top:0;
+ 
+}
+
+p{
+  display:flex;
+  height:100%;
+  width:100%;
+  margin:auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(166, 161, 161);
+  
+  text-transform: capitalize;
+  position: absolute;
+} 
+
+
+
+
+
+
+
+.tech-mas-ter{
+  animation: techmaster 6s 1s infinite both;
+  opacity:1;
+  z-index:1;
+}
+
+@keyframes techmaster {
+ 
+  100%{
+    opacity: 0;
+    z-index: 0;
+ 
+}
+}
+  
+
+
+
+.hoc{
+  animation: hoc 6s 2s infinite both;
+  z-index:0;
+  opacity: 0;
+}
+
+
+@keyframes hoc {
+ 
+
+  20%{
+    opacity: 1;
+    z-index: 4;
+    background-color:rgb(236, 107, 165)
+  }
+
+  80%{
+    opacity: 0;
+  }
+ 
+}
+
+
+
+.la{
+  animation: la 6s 3s infinite both;
+  z-index: 0;
+  opacity: 0;
+}
+
+@keyframes la{
+  
+
+  20%{
+    opacity: 1;
+    z-index: 3;
+    background-color:rgb(224, 168, 177)
+  }
+  80%{
+    opacity:0;
+    z-index: 0;
+  }
+  
+
+}
+
+
+
+
+.co{
+  animation: co 6s 4s infinite both;
+  opacity: 0;
+  z-index: 0;
+}
+
+@keyframes co {
+ 
+
+  20%{
+    opacity: 1;
+    z-index: 2;
+    background-color:rgb(187, 163, 55)
+  }
+
+  80%{
+    opacity:0;
+    z-index: 0;
+  }
+  
+  
+}
+
+
+
+
+.viec{
+  animation: viec 6s 5s infinite;
+  opacity: 0;
+  z-index: 0;
+}
+
+
+
+@keyframes viec {
+  
+
+  20%{
+   opacity: 1;
+   z-index: 1;
+   background-color:bisque;
+ }
+
+ 80%{
+  opacity:0;
+  z-index: 0;
+}
+
+
+}
