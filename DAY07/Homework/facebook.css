@@ -130,6 +130,7 @@ div.gender-selection {
 select {
 	font-size: 15px;
 	outline: none !important;
+	background-color: #fff;
 }
 
 input[type="radio"] {
