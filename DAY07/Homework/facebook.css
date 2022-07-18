@@ -73,11 +73,16 @@ input {
 input[type="text"],
 input[type="password"] {
 	background-color: #f5f6f7;
+	border: 1px solid #ccd0d5;
 }
+
+
+
 
 input {
 	margin: 10px auto;
 	padding: 7px 10px;
+	outline: none !important;
 }
 
 #mobile-number,
@@ -124,6 +129,7 @@ div.gender-selection {
 
 select {
 	font-size: 15px;
+	outline: none !important;
 }
 
 input[type="radio"] {
