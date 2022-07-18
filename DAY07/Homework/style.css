@@ -29,25 +29,29 @@ li{
 }
 
 table{
-  border-collapse: collapse;
+  border-spacing: 0;
   width:50%;
-  
+  border-collapse: collapse;
   table-layout: auto;
-
 }
 
+tbody{
+  border-radius: 6px;
+}
 
 tr{
   table-layout: fixed;
-  border-collapse: collapse;
+  
   display:table-row;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  margin:0 !important;
 }
 
 td{
   text-align: center;
   border: 1px solid #ccc;
+  border-radius: 6px;
   border-collapse: collapse;
   padding: 10px  0;
   display:table-cell;
@@ -179,4 +183,9 @@ td.first-td span{
 
 [type=button] {
   cursor: pointer;
+}
+
+tr:last-child{
+  border-collapse: separate;
+
 }

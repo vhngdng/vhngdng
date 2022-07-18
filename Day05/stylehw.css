@@ -31,33 +31,43 @@ body {
 /*PICTURE đầu tiên */
 
 #link-bar {
+	box-sizing: border-box	;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
 	height: 25px;
+	transition-duration: 200px;	
+	
 }
 
 .bar-link {
 	display: inline-flex;
-	justify-content: end;
+	justify-content: center;
+	align-items: center;
 	width: 65%;
+	box-sizing: border-box;
+	
 }
 
-.sub-bar a {
+	.sub-bar a {
+		color: #9e9e9e;
+	}
+
+.sub-bar {
 	text-decoration: none;
 	font-size: 12px;
 	font-family: Roboto-Regular, "Helvetica Neue", Helvetica, Tahoma, Arial,
 		Sans-serif;
-	color: #9e9e9e;
 	background-color: #f5f5f5;
 	text-align: right;
 	white-space: nowrap;
+	box-sizing: border-box;
+	margin:auto ;
+	padding: auto !important;
 }
 
-.sub-bar {
-	padding-left: 34px;
-}
+
 
 .differ.sub-bar a {
 	color: #0f1568;
@@ -72,8 +82,19 @@ body {
 
 .menu-search {
 	display: flex;
-	justify-content: space-between;
 	background-color: white;
+	
+}
+
+#scroll-bar{
+	background-color: #f5f5f5;
+	display:block;
+	box-sizing: border-box;
+	width: 100%;
+	position:sticky;
+	top:0;
+	left:0;
+	z-index: 99999;
 }
 
 button {
@@ -137,37 +158,70 @@ ul.main-menu-main, ul.child, ul.child-child{
 	padding-inline-start: 0;
 	margin-block: 0;
 	height: 100%;
-	margin: 0;
-  box-sizing: content-box;
-  padding-top:10px;
+	margin: auto;
+  box-sizing: border-box;
+  padding-top:5px;
   width:100%;
-  padding-left:0;
+  padding-left:10px;
+	line-height: 1.5;
 }
 
 a.main-menu-sub{
   overflow: hidden;
 }
 
+
+
 .main-menu-main {
 	position: relative;
-	padding: 8px auto 12px auto;
-	width:80%;
-  
-  
+	
+	
+} 
+ 
+
+.main-menu-main a{
+	box-sizing: border-box;
+	display:block;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	padding-right: 20px;
 }
+
 
 ul{
   padding-inline: 0;
 }
 
-li{
-  white-space: nowrap;
+.main-menu-main li{
+  
   width:100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin:0;
+  display: inline-flex;
+	flex-direction: row;
+  margin:auto !important;
   padding-inline:0;
+	padding-right:10%;
+	
 }
+
+
+
+
+.arrow{
+	width:20%;
+	position: relative;
+	display:none;
+	color: orange;
+	float:right;
+	box-sizing: inherit;
+	font-weight: bolder;
+	text-align: end;
+}
+
+
+
+
 
 .child {
 	position: absolute;
@@ -181,11 +235,19 @@ li{
 	background-color: white;
   margin:0;
   padding-inline: 0;
+	
 }
 
-.main-menu-main li:hover .child {
-	display: block;
+.main-menu-main li:hover .child{
+	display: block ;
   border-left:1px solid gray;
+	
+}
+
+.main-menu-main li:hover::after {
+	content:">";
+	white-space:pre;
+	color: orange;
 }
 
 .child-child {
@@ -200,12 +262,25 @@ li{
 	max-height: 30vmin;
 	background-color: white;
   padding-inline:0;
+
 }
 
 .child li:hover .child-child {
 	display: block;
   border-left:1px solid gray;
+	
 }
+
+.child li:hover::after {
+	content:">";
+	white-space:pre;
+	color: orange;
+}
+
+.child-child li::after, .no-arrow::after{
+	content: none !important;
+}
+
 
 .adv {
 	display: block;
@@ -215,7 +290,7 @@ li{
 
 div.content {
 	display: inline-flex;
-	box-sizing: content-box;
+	box-sizing: border-box;
 	max-height: 30vmin;
 	width: 65%;
   border-top:1px solid gray;
@@ -444,7 +519,7 @@ section:nth-last-of-type(3) div:nth-of-type(4) article:last-of-type img {
 	display: block;
 }
 
-section:nth-last-of-type(2) {
+.section-last-type-2 {
 	display: inline-flex;
 	width: 100%;
 	color: #888;
@@ -452,8 +527,8 @@ section:nth-last-of-type(2) {
 	padding: 5% 0 0 0;
 }
 
-section:nth-last-of-type(2) div:nth-child(2),
-section:nth-last-of-type(2) div:nth-child(3) {
+.section-last-type-2 div:nth-child(2),
+.section-last-type-2 div:nth-child(3) {
 	width: 32.5%;
 
 	overflow: hidden;
@@ -461,16 +536,16 @@ section:nth-last-of-type(2) div:nth-child(3) {
 	flex-direction: row;
 	font-size: 12px;
 }
-section:nth-last-of-type(2) div:nth-child(2) article,
-section:nth-last-of-type(2) div:nth-child(2),
-section:nth-last-of-type(2) div:nth-last-child(2),
-section:nth-last-of-type(2) div:nth-last-child(3) {
+.section-last-type-2 div:nth-child(2) article,
+.section-last-type-2 div:nth-child(2),
+.section-last-type-2 div:nth-last-child(2),
+.section-last-type-2 div:nth-last-child(3) {
 	max-width: 50%;
 	width: 50% !important;
 	padding-right: 20px;
 }
 
-section:nth-last-of-type(2) div:nth-child(2) article p {
+.section-last-type-2 div:nth-child(2) article p {
 	padding: 40px 20px 20px 10px;
 }
 
