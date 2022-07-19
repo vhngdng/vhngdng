@@ -281,22 +281,49 @@ h3 {
 }
 
 .scroll-up {
-	height: 20px;
-}
-
-i.fa-angles-up::before {
 	line-height: 60px;
 	height: 60px;
 	width: 60px;
+  position: fixed;
+  bottom: 5%;
+  left: 93%;
+  box-sizing: border-box;
+  border: 1px solid rgb(249, 175, 39);
+  border-radius: 50%;
+  color: rgb(249, 175, 39) !important;
+  text-align: center;
+  opacity: 0.5;
+  
+}
 
-	font-size: 30px !important;
-	color: rgb(249, 175, 39) !important;
-	z-index: 4;
-	opacity: 0.5;
-	position: fixed;
-	bottom: 5%;
-	border: 1px solid rgb(249, 175, 39);
-	border-radius: 50%;
+.scroll-up a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  
+}
 
-	text-align: center;
+i.fa-angles-up{
+  padding: 0 !important;
+}
+
+
+i.fa-angles-up::before{
+  display: block;
+  color: rgb(249, 175, 39) !important;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+ 
+}
+
+.scroll-up:hover{
+  background-color: rgb(255, 230, 185);
+  opacity: 1 !important;
+  z-index: 9999;
+  
 }
