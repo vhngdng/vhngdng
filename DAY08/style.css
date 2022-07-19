@@ -7,8 +7,8 @@ html{
 }
 
 body{
-  height: calc(100% ) !important;
-  width: calc(100% -50px) !important;
+  height: 100% ;
+  width: 100% !important;
   background: linear-gradient(180deg, rgb(1, 128, 128), rgb(3, 132, 172),rgb(2, 44, 74),rgb(3, 94, 122));
   
   margin: auto;
@@ -17,14 +17,14 @@ body{
 section{
   width:100%;
   box-sizing: border-box;
-  padding: 20px 70px;
+  padding: 0 70px 0 70px;
 }
 
 #first-contact{
   direction: rtl;
   margin-bottom: 10px;
   font-style: italic;
-  
+  padding-top: 20px;
 }
 
 #first-contact a {
@@ -65,14 +65,14 @@ ul{
 
 div.menu-logo-fest{
   width: 100%;
-  
+  margin-bottom: -40px;
 }
 
 ul.menu-level1{
   width: 100%;
   height:100%;
   display: flex;
-  
+  font-size: 17px;
   flex-direction: row;
   box-sizing: border-box;
   align-items: center;
@@ -82,7 +82,7 @@ ul.menu-level1{
 }
 
 li{
- width:20%;
+ width:100%;
  height: 100%;
  vertical-align: center;
  
@@ -101,25 +101,29 @@ i{
 
 .menu-lv1{
   position: relative;
- 
+  
 }
 
-.menu-level1 li{
+.menu-level1 > li{
   display:flex;
   justify-content: end;
   align-items: center;
   padding-top: 0;
-  
+  padding-bottom: 40px;
+  box-sizing: content-box;
 }
 
 .menu-lv2{
   position: absolute;
   display: none;
-  top:56%;
+  top:33%;
+  left:20%;
   background-color: #f5f5f5;
-  margin-top:40px;
+  margin-top: 60px;
   padding-inline: 0;
 }
+
+
 
 .menu-level1 li:hover .menu-lv2{
   display:block;
@@ -131,11 +135,12 @@ i{
   width:100%;
   text-align: center;
   box-sizing: border-box;
+  border-bottom: 1px solid rgb(0, 0, 0 / 10%);
 }
 
 
 body::after{
-  width: 100%;
+  height: 100%;
   content:"";
   background-image: url("./146.jpg");
   opacity: 0.5;
@@ -145,7 +150,7 @@ body::after{
   bottom: 0;
   position: absolute;
   z-index: -1;
-}
+} 
 
 .back-ground-image {
   width: 100%;
@@ -183,13 +188,15 @@ form{
   background-color: blanchedalmond;
   box-sizing: border-box;
   margin: auto;
-  width: 40%;
+  width: 20%;
+  padding-top: 10px;
   padding-bottom: 20px;
   border-radius: 6px;
-  box-shadow: 2px 2px #f5f5f5;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
 } 
 
 label{
+  
   color:rgb(95, 174, 253);
   font-size: 24px;
   font-weight: 600;
@@ -197,27 +204,29 @@ label{
 }
 
 .submit{
-  display:inline-block;
-  width:100%;
+  display: inline-block;
+  width: 100%;
   justify-content: row;
+  padding-top: 10px;
 }
 
 input[type=submit], input[type=reset]{
-  width:15%;
+  width: 20%;
   display: inline-block;
+  text-align: center;
 }
 
 input[type=reset]{
-  text-align: center;
+  
 }
 
 
 .customer {
   margin: auto;
-  display:block;
+  display: block;
   justify-content: center;
-  width:100%;
-  margin-top:20px;
+  width: 100%;
+  margin-top: 20px;
 }
 
 
